@@ -15,7 +15,7 @@ document.getElementById("gomb").addEventListener("click", function(){
     var aktAuto = new Auto(gy, t, sz);
 
     autok.set(rsz, aktAuto);
-    //var a1 = autok.get("ABC-123"); //Auto tipusu objektum
+    //var a1 = autok.get("AB-12-AB"); //Auto tipusu objektum
 
     //console.log(autok);
 }, false);
@@ -31,4 +31,5 @@ document.getElementById("keresesGomb").addEventListener("click", function(){
     else{
         h3.innerHTML = "A megadott rendszamhoz nem tartozik jarmu a rendszerben!";
     }
+
 }, false);
